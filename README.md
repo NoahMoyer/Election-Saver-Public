@@ -13,8 +13,10 @@ The main functions of the program are the following:
 ***
 
 ## Main screen <br>
-![image](https://github.com/NoahMoyer/Election-file-saver/assets/36149055/e040756c-4bc1-4e73-b09b-8ddafaea778a)
+![main](https://github.com/NoahMoyer/Election-Saver-Public/assets/35582108/d819ee78-74b8-4636-ac89-63878c409152)
+
 
 
 ## Settings screen <br>
-![Screenshot_20230809_134545](https://github.com/NoahMoyer/Election-file-saver/assets/35582108/9d12eaa0-a6bc-402a-8257-017a94c95fd4)
+![settings](https://github.com/NoahMoyer/Election-Saver-Public/assets/35582108/3fd277e1-918d-4565-b943-4ac567a50d1d)
+

@@ -110,7 +110,7 @@ namespace Updater
                 
                 DirectoryInfo installerDirectory = Directory.CreateDirectory(installerPath);
 
-                string msiDownloadLink = "https://github.com/NoahMoyer/Election-file-saver/releases/latest/download/Election.Saver.Setup.msi";
+                string msiDownloadLink = "https://github.com/NoahMoyer/Election-Saver-Public/releases/latest/download/Election.Saver.Setup.msi";
                 okButton.Content = "OK";
                 okButton.Visibility = Visibility.Hidden;
                 //releaseNotesLink.Visibility = Visibility.Hidden;

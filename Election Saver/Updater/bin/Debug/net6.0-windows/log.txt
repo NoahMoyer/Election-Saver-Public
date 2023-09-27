@@ -1,11 +1,7 @@
-[8/2/2023 4:00:26 PM] [User name: CITY\NMoyerA] Log: Initializing form
-[8/2/2023 4:00:27 PM] [User name: CITY\NMoyerA] Log: Loading form and initializing variables
-[8/2/2023 4:00:27 PM] [User name: CITY\NMoyerA] Log: Killing main process
-[8/2/2023 4:00:27 PM] [User name: CITY\NMoyerA] Log: Main process succesfully stopped
-[8/2/2023 4:00:27 PM] [User name: CITY\NMoyerA] Log: Downloading installer
-[8/2/2023 4:00:30 PM] [User name: CITY\NMoyerA] Log: Installing MSI file
-[8/2/2023 4:00:32 PM] [User name: CITY\NMoyerA] Log: Install function failed. Cath error:
- System.InvalidOperationException: Install error. MSI installer returned error code: 1603
-   at Updater.UpdaterForm.installProgram(String installerPath, String installerName) in C:\Users\nmoyer\OneDrive - City of Ann Arbor\Documents\GitHub\Election-file-saver\Election Saver\Updater\MainWindow.xaml.cs:line 287
-[8/2/2023 4:00:36 PM] [User name: CITY\NMoyerA] Log: User clicked OK button.
-[8/2/2023 4:00:36 PM] [User name: CITY\NMoyerA] Log: Deleting temp files
+[9/27/2023 3:06:52 PM] [User name: CITY\NMoyerA] Log: Initializing form
+[9/27/2023 3:06:55 PM] [User name: CITY\NMoyerA] Log: Loading form and initializing variables
+[9/27/2023 3:06:55 PM] [User name: CITY\NMoyerA] Log: Killing main process
+[9/27/2023 3:06:55 PM] [User name: CITY\NMoyerA] Log: Main process succesfully stopped
+[9/27/2023 3:06:55 PM] [User name: CITY\NMoyerA] Log: Downloading installer
+[9/27/2023 3:06:58 PM] [User name: CITY\NMoyerA] Log: Installing MSI file
+[9/27/2023 3:07:06 PM] [User name: CITY\NMoyerA] Log: Update installed successfully

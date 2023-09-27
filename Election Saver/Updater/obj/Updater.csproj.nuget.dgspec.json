@@ -10,19 +10,18 @@
         "projectUniqueName": "C:\\Users\\nmoyer\\source\\repos\\Profile Cleaner\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
         "projectName": "Updater",
         "projectPath": "C:\\Users\\nmoyer\\source\\repos\\Profile Cleaner\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
-        "packagesPath": "C:\\Users\\nmoyer\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\nmoyera\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nmoyer\\source\\repos\\Profile Cleaner\\Election-Saver-Public\\Election Saver\\Updater\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nmoyer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nmoyera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {

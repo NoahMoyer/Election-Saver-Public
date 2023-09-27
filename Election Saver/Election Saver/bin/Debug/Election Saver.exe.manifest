@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Election Saver.exe" size="847808">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Election Saver.exe" size="848832">
       <assemblyIdentity name="Election Saver" version="2.3.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>b/5YRaeyrbp0A8IaCVRLH9QailPrcbheRVwVeWfsiKk=</dsig:DigestValue>
+        <dsig:DigestValue>NEB086P2C5eGpwfziOur/D05yHBVDdB48Xf7eRTBF1U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

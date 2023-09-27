@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nmoyer\\OneDrive - City of Ann Arbor\\Documents\\GitHub\\Election-file-saver\\Election Saver\\Updater\\Updater.csproj": {}
+    "C:\\Users\\nmoyer\\source\\repos\\Profile Cleaner\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nmoyer\\OneDrive - City of Ann Arbor\\Documents\\GitHub\\Election-file-saver\\Election Saver\\Updater\\Updater.csproj": {
+    "C:\\Users\\nmoyer\\source\\repos\\Profile Cleaner\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nmoyer\\OneDrive - City of Ann Arbor\\Documents\\GitHub\\Election-file-saver\\Election Saver\\Updater\\Updater.csproj",
+        "projectUniqueName": "C:\\Users\\nmoyer\\source\\repos\\Profile Cleaner\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
         "projectName": "Updater",
-        "projectPath": "C:\\Users\\nmoyer\\OneDrive - City of Ann Arbor\\Documents\\GitHub\\Election-file-saver\\Election Saver\\Updater\\Updater.csproj",
+        "projectPath": "C:\\Users\\nmoyer\\source\\repos\\Profile Cleaner\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
         "packagesPath": "C:\\Users\\nmoyer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nmoyer\\OneDrive - City of Ann Arbor\\Documents\\GitHub\\Election-file-saver\\Election Saver\\Updater\\obj\\",
+        "outputPath": "C:\\Users\\nmoyer\\source\\repos\\Profile Cleaner\\Election-Saver-Public\\Election Saver\\Updater\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nmoyer\\AppData\\Roaming\\NuGet\\NuGet.Config",

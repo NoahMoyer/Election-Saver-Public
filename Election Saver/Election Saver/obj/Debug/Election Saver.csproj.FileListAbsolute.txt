@@ -177,3 +177,32 @@ C:\Users\npmoyer\OneDrive - City of Ann Arbor\Documents\GitHub\Election-file-sav
 C:\Users\Noah\source\repos\Election-file-saver\Election Saver\Election Saver\obj\Debug\Election Saver_Content.g.cs
 C:\Users\nmoyer\OneDrive - City of Ann Arbor\Documents\GitHub\Election-file-saver\Election Saver\Election Saver\obj\Debug\UpdateConfirmation.g.cs
 C:\Users\nmoyer\OneDrive - City of Ann Arbor\Documents\GitHub\Election-file-saver\Election Saver\Election Saver\obj\Debug\UpdateConfirmation.baml
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Election Saver.exe.config
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Election Saver.exe.manifest
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Election Saver.application
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Election Saver.exe
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Election Saver.pdb
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\BitlockerManager.dll
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.csproj.AssemblyReference.cache
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.csproj.SuggestedBindingRedirects.cache
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\MainWindow.g.cs
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\UpdateConfirmation.g.cs
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\App.g.cs
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver_Content.g.cs
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver_MarkupCompile.cache
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver_MarkupCompile.lref
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\MainWindow.baml
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\UpdateConfirmation.baml
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.g.resources
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election_Saver.Properties.Resources.resources
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.csproj.GenerateResource.cache
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.csproj.CoreCompileInputs.cache
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.exe.manifest
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.application
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.csproj.CopyComplete
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.exe
+C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.pdb

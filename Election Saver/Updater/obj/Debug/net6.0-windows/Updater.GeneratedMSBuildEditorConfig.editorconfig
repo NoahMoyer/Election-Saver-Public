@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Updater
-build_property.ProjectDir = C:\Users\nmoyer\OneDrive - City of Ann Arbor\Documents\GitHub\Election-file-saver\Election Saver\Updater\
+build_property.ProjectDir = C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Updater\

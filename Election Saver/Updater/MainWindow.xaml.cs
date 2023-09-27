@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -15,6 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Updater
 {
@@ -63,7 +65,7 @@ namespace Updater
         /// Reset UI back to a default state.
         /// </summary>
         /// <param name="lable"></param>
-        void resetUI(string lable)
+        async void resetUI(string lable)
         {
             //set cursor back to default
             //Application.UseWaitCursor = false;
@@ -99,26 +101,39 @@ namespace Updater
         /// <param name="e"></param>
         void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            
+            ThreadPool.QueueUserWorkItem(_ =>
+            {
+                //Longer Process (//set the operation in another thread so that the UI thread is kept responding)
+                Dispatcher.BeginInvoke(new Action(() =>
+                {
+                    //use the Dispatcher to "return" to the UI thread
+                    //To change the UI elements like label you should put them here like : label1.Text = ""; 
+                    
+                }));
+            });
+
+            new Thread(install).Start();
+        }
+
+        async void install()
+        {
             try
             {
+
                 //Begin logging info
                 log("Loading form and initializing variables");
                 //End Logginng info
 
                 //variables
-                
+
                 DirectoryInfo installerDirectory = Directory.CreateDirectory(installerPath);
 
                 string msiDownloadLink = "https://github.com/NoahMoyer/Election-Saver-Public/releases/latest/download/Election.Saver.Setup.msi";
-                okButton.Content = "OK";
-                okButton.Visibility = Visibility.Hidden;
-                //releaseNotesLink.Visibility = Visibility.Hidden;
 
-
-
-                statusLabel.Content = "Killing main process";
-                progressBar.Value = 10;
+                this.Dispatcher.Invoke(() => {
+                    statusLabel.Content = "Killing main process";
+                    progressBar.Value = 10;
+                });
 
                 try
                 {
@@ -131,13 +146,20 @@ namespace Updater
                     {
                         mainProcess.Kill();
                     }
-                    progressBar.Value = 15;
+                    this.Dispatcher.Invoke(() => {
+                        progressBar.Value = 15;
+                    });
+
                 }
                 catch (Exception Error)
                 {
                     //Begin logging info
                     log("Failed to stop main process. Exiting program. Cath error:\n" + Error);
                     //End logging info
+
+                    this.Dispatcher.Invoke(() => {
+                        progressBar.IsIndeterminate = true;
+                    });
                     MessageBox.Show("Failed to stop main process. Please try again after application closes.\n\n" + Error, "\n\nPlease contact your system administrator", MessageBoxButton.OK, MessageBoxImage.Error);
                     //Kill current process
                     Process.GetCurrentProcess().Kill();
@@ -152,9 +174,12 @@ namespace Updater
                     //Begin logging info
                     log("Downloading installer");
                     //End logging info
-                    statusLabel.Content = "Downloading insatller";
+                    this.Dispatcher.Invoke(() => {
+                        statusLabel.Content = "Downloading insatller";
+                        progressBar.IsIndeterminate = false;
+                        progressBar.Value = 25;
+                    });
 
-                    progressBar.Value = 25;
                     //launch download process
                     //Task download = Task.Run(() => downloadFiles(installerPath, installerName, msiDownloadLink));
                     //download.Wait();
@@ -164,9 +189,9 @@ namespace Updater
                         client.DownloadFile(msiDownloadLink, installerPath + installerName);
                     }
 
-                    //WebClient webClient = new WebClient();
-                    //webClient.DownloadFile(msiDownloadLink, installerPath + installerName);
-                    progressBar.Value = 50;
+                    this.Dispatcher.Invoke(() => {
+                        progressBar.Value = 50;
+                    });
                 }
                 catch (Exception DownloadError)
                 {
@@ -174,9 +199,17 @@ namespace Updater
                     log("Failed to download update. Cath error:\n " + DownloadError);
                     //End logging info
 
+                    this.Dispatcher.Invoke(() => {
+                        progressBar.IsIndeterminate = true;
+                    });
                     MessageBox.Show("Failed to download update.\n\n" + DownloadError, "\n\nPlease contact your system administrator", MessageBoxButton.OK, MessageBoxImage.Error);
 
-                    resetUI("Failed to download update");
+                    this.Dispatcher.Invoke(() => {
+                        resetUI("Failed to download update");
+                        progressBar.IsIndeterminate = false;
+                        progressBar.Value = 0;
+                    });
+
 
                     return;
                 }
@@ -187,23 +220,34 @@ namespace Updater
                     log("Installing MSI file");
                     //End logging info
 
-                    statusLabel.Content = "Installing update";
+                    this.Dispatcher.Invoke(() => {
+                        statusLabel.Content = "Installing update";
+                    });
+
 
                     int installStatus = installProgram(installerPath, installerName);
 
                     if (installStatus != 0)
                     {
-                        resetUI("Failed to install update");
+                        this.Dispatcher.Invoke(() => {
+                            progressBar.IsIndeterminate = true;
+                        });
+                        MessageBox.Show("Failed to install update.\n\n" , "\n\nPlease contact your system administrator", MessageBoxButton.OK, MessageBoxImage.Error);
+                        this.Dispatcher.Invoke(() => {
+                            resetUI("Failed to install update");
+                            progressBar.IsIndeterminate = false;
+                            progressBar.Value = 0;
+                        });
                         return;
                     }
 
-                    for (int i = 0; i < 10; i++)
-                    {
-                        progressBar.Value = progressBar.Value + 2;
-                        System.Threading.Thread.Sleep(500);
-                    }
-
-
+                    this.Dispatcher.Invoke(() => {
+                        for (int i = 0; i < 10; i++)
+                        {
+                            progressBar.Value = progressBar.Value + 2;
+                            System.Threading.Thread.Sleep(500);
+                        }
+                    });
                 }
                 catch (Exception Error)
                 {
@@ -211,8 +255,15 @@ namespace Updater
                     log("Failed to install update. Cath error:\n " + Error);
                     //End logging info
 
+                    this.Dispatcher.Invoke(() => {
+                        progressBar.IsIndeterminate = true;
+                    });
                     MessageBox.Show("Failed to install update.\n\n" + Error, "\n\nPlease contact your system administrator", MessageBoxButton.OK, MessageBoxImage.Error);
-                    resetUI("Failed to install update");
+                    this.Dispatcher.Invoke(() => {
+                        resetUI("Failed to install update");
+                        progressBar.IsIndeterminate = false;
+                        progressBar.Value = 0;
+                    });
                     return;
                 }
 
@@ -222,7 +273,9 @@ namespace Updater
 
                 System.Threading.Thread.Sleep(5000);
 
-                resetUI("Update installed successfully", 100);
+                this.Dispatcher.Invoke(() => {
+                    resetUI("Update installed successfully", 100);
+                });
             }
             catch (Exception Error)
             {
@@ -230,11 +283,19 @@ namespace Updater
                 log("Unhandeled exception occured. Cath error:\n " + Error);
                 //End logging info
 
+                this.Dispatcher.Invoke(() => {
+                    progressBar.IsIndeterminate = true;
+                });
                 MessageBox.Show("Unknown error. Please contact your system administrator.\n\n" + Error, "", MessageBoxButton.OK, MessageBoxImage.Error);
-                resetUI("Unknown error");
+                this.Dispatcher.Invoke(() => { 
+                    resetUI("Unknown error");
+                    progressBar.IsIndeterminate = false;
+                    progressBar.Value = 0;
+                });
                 return;
             }
         }
+        
 
         /// <summary>
         /// Function to download the installer file from github to a path passed into the function as a string.

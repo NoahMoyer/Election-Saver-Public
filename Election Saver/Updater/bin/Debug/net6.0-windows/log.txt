@@ -1,7 +1,7 @@
-[9/27/2023 3:06:52 PM] [User name: CITY\NMoyerA] Log: Initializing form
-[9/27/2023 3:06:55 PM] [User name: CITY\NMoyerA] Log: Loading form and initializing variables
-[9/27/2023 3:06:55 PM] [User name: CITY\NMoyerA] Log: Killing main process
-[9/27/2023 3:06:55 PM] [User name: CITY\NMoyerA] Log: Main process succesfully stopped
-[9/27/2023 3:06:55 PM] [User name: CITY\NMoyerA] Log: Downloading installer
-[9/27/2023 3:06:58 PM] [User name: CITY\NMoyerA] Log: Installing MSI file
-[9/27/2023 3:07:06 PM] [User name: CITY\NMoyerA] Log: Update installed successfully
+[9/27/2023 4:41:40 PM] [User name: CITY\NMoyerA] Log: Initializing form
+[9/27/2023 4:41:42 PM] [User name: CITY\NMoyerA] Log: Loading form and initializing variables
+[9/27/2023 4:41:42 PM] [User name: CITY\NMoyerA] Log: Killing main process
+[9/27/2023 4:41:42 PM] [User name: CITY\NMoyerA] Log: Main process succesfully stopped
+[9/27/2023 4:41:42 PM] [User name: CITY\NMoyerA] Log: Downloading installer
+[9/27/2023 4:41:45 PM] [User name: CITY\NMoyerA] Log: Installing MSI file
+[9/27/2023 4:41:51 PM] [User name: CITY\NMoyerA] Log: Update installed successfully

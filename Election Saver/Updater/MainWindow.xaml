@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Election Saver Updater" Height="160" Width="400" MinWidth="400" MinHeight="160" MaxWidth="400" MaxHeight="160">
     <Grid Width="400" Height="160" MinWidth="400" MinHeight="160" MaxWidth="400" MaxHeight="160">
-        <Label x:Name="statusLabel" Content="Status Label" HorizontalAlignment="Left" Margin="96,12,0,0" VerticalAlignment="Top" Width="204"/>
-        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="20" Margin="100,43,0,0" VerticalAlignment="Top" Width="190"/>
-        <Button x:Name="okButton" Content="OK" HorizontalAlignment="Left" Margin="295,88,0,0" VerticalAlignment="Top" Width="60" Click="okButton_Click"/>
-        <Button x:Name="retryButton" Content="Retry" HorizontalAlignment="Left" Margin="221,88,0,0" VerticalAlignment="Top" Width="60" Click="retryButton_Click"/>
+        <Label x:Name="statusLabel" Content="Installing update" HorizontalAlignment="Left" Margin="96,12,0,0" VerticalAlignment="Top" Width="204"/>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="20" Margin="100,43,0,0" VerticalAlignment="Top" Width="190" IsIndeterminate="True"></ProgressBar>
+        <Button x:Name="okButton" Content="OK" HorizontalAlignment="Left" Margin="295,88,0,0" VerticalAlignment="Top" Width="60" Click="okButton_Click" Visibility="Hidden"/>
+        <Button x:Name="retryButton" Content="Retry" HorizontalAlignment="Left" Margin="221,88,0,0" VerticalAlignment="Top" Width="60" Click="retryButton_Click" Visibility="Hidden"/>
 
     </Grid>
 </Window>

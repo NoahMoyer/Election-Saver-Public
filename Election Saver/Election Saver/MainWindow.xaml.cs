@@ -30,6 +30,10 @@ namespace Election_Saver
     /// </summary>
     public partial class MainWindow : Window
     {
+        //Begin logging info
+        string logFile = "log.txt";
+        string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+        //End logging info
 
         //int fileCount;
         int waitTimeINSecondsBetweenPrints;
@@ -43,6 +47,12 @@ namespace Election_Saver
         public MainWindow()
         {
             InitializeComponent();
+
+            //Begin logging info
+            File.WriteAllTextAsync(logFile, "");
+            log("Initializing form");
+            //End logging info
+
             fileCopier = new FileCopier();
             waitTimeINSecondsBetweenPrints = 10;
             copyProgressBarWaitTime = 2;
@@ -130,6 +140,17 @@ namespace Election_Saver
             ///
 
         }
+
+        /// <summary>
+        /// Function to standardize logging data format.
+        /// </summary>
+        /// <param name="logData"></param>
+        void log(string logData)
+        {
+            File.AppendAllTextAsync(logFile, "[" + DateTime.Now + "] " + "[User name: " + userName + "] Log: " + logData + "\n");
+        }
+
+
         /// <summary>
         /// 
         /// </summary>

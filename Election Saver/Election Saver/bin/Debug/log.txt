@@ -13,3 +13,18 @@
    at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
    at System.Net.WebClient.DownloadString(Uri address)
    at Access_Time_Analyzer.Update..ctor() in C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\Update.cs:line 48
+[2/27/2024 9:12:56 AM] [User name: CITY\NMoyerA] Log: Failed to check for application update. Program should function like normal. Cath error:
+ System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Access_Time_Analyzer.Update..ctor() in C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\Update.cs:line 48
+[2/27/2024 9:13:06 AM] [User name: CITY\NMoyerA] Log: Failed to check for application update. Program should function like normal. Cath error:
+ System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Access_Time_Analyzer.Update..ctor() in C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\Update.cs:line 48
+[2/27/2024 9:28:04 AM] [User name: CITY\NMoyerA] Log: Failed to check for application update. Program should function like normal. Cath error:
+ System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Access_Time_Analyzer.Update..ctor() in C:\Users\nmoyer\source\repos\Profile Cleaner\Election-Saver-Public\Election Saver\Election Saver\Update.cs:line 48

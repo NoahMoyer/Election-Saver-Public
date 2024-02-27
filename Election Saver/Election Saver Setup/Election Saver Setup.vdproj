@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_38C59C17228A41BA8893E125B038A54F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_462E44F729AC40F8B2A879BC8913D958"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -51,20 +57,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7C80010F3C5E2B143922EB959308E151"
-        "OwnerKey" = "8:_C2CC5CCC20FE43C9B431E0B6D6338554"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_896B61EC6057729E4416E26AF5F2332E"
-        "OwnerKey" = "8:_C2CC5CCC20FE43C9B431E0B6D6338554"
+        "MsmKey" = "8:_67A2F41B9A6FBFF724DCCEF9F98F9596"
+        "OwnerKey" = "8:_A6BA1B412B22515808A29AABA64448B2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_8FB4C2DAC2AE69CE94247CABC28B3BCA"
-        "OwnerKey" = "8:_C2CC5CCC20FE43C9B431E0B6D6338554"
+        "OwnerKey" = "8:_38C59C17228A41BA8893E125B038A54F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -81,8 +81,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C2CC5CCC20FE43C9B431E0B6D6338554"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_A6BA1B412B22515808A29AABA64448B2"
+        "OwnerKey" = "8:_38C59C17228A41BA8893E125B038A54F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B3205757B7697CBFD5020F295A396522"
+        "OwnerKey" = "8:_38C59C17228A41BA8893E125B038A54F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -117,12 +123,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_F6F0F1227E0F8879C2873EF3204761B7"
-        "OwnerKey" = "8:_896B61EC6057729E4416E26AF5F2332E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_F92FF6553ACC44D1B7BE39855E40A991"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -131,6 +131,18 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_358C592E76DC42B28D2D040386690694"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_38C59C17228A41BA8893E125B038A54F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8FB4C2DAC2AE69CE94247CABC28B3BCA"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -148,31 +160,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C2CC5CCC20FE43C9B431E0B6D6338554"
+        "OwnerKey" = "8:_A6BA1B412B22515808A29AABA64448B2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_896B61EC6057729E4416E26AF5F2332E"
+        "OwnerKey" = "8:_67A2F41B9A6FBFF724DCCEF9F98F9596"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F6F0F1227E0F8879C2873EF3204761B7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7C80010F3C5E2B143922EB959308E151"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8FB4C2DAC2AE69CE94247CABC28B3BCA"
+        "OwnerKey" = "8:_B3205757B7697CBFD5020F295A396522"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -274,7 +274,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Updater, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Updater, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_358C592E76DC42B28D2D040386690694"
@@ -287,6 +287,37 @@
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_0990189EE2AC4616AD36C2FC29B6B131"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_38C59C17228A41BA8893E125B038A54F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Election Saver, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_38C59C17228A41BA8893E125B038A54F"
+                    {
+                    "Name" = "8:Election Saver.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\Election Saver\\bin\\Debug\\Election Saver.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1C448994047F43C4AD3F1E6C8AF4D865"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -401,51 +432,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7C80010F3C5E2B143922EB959308E151"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_67A2F41B9A6FBFF724DCCEF9F98F9596"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:BitlockerManager, Version=1.0.1.0, Culture=neutral, PublicKeyToken=6c5c42dda1395a58, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_7C80010F3C5E2B143922EB959308E151"
+                    "_67A2F41B9A6FBFF724DCCEF9F98F9596"
                     {
-                    "Name" = "8:BitlockerManager.dll"
+                    "Name" = "8:Microsoft.WindowsAPICodePack.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:BitlockerManager.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_1C448994047F43C4AD3F1E6C8AF4D865"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_896B61EC6057729E4416E26AF5F2332E"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_896B61EC6057729E4416E26AF5F2332E"
-                    {
-                    "Name" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
+            "SourcePath" = "8:Microsoft.WindowsAPICodePack.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1C448994047F43C4AD3F1E6C8AF4D865"
@@ -534,20 +534,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C2CC5CCC20FE43C9B431E0B6D6338554"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A6BA1B412B22515808A29AABA64448B2"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Election Saver, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C2CC5CCC20FE43C9B431E0B6D6338554"
+                    "_A6BA1B412B22515808A29AABA64448B2"
                     {
-                    "Name" = "8:Election Saver.exe"
+                    "Name" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\Election Saver\\bin\\Debug\\Election Saver.exe"
+            "SourcePath" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1C448994047F43C4AD3F1E6C8AF4D865"
@@ -562,7 +562,38 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B3205757B7697CBFD5020F295A396522"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:BitlockerManager, Version=1.0.1.0, Culture=neutral, PublicKeyToken=6c5c42dda1395a58, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B3205757B7697CBFD5020F295A396522"
+                    {
+                    "Name" = "8:BitlockerManager.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:BitlockerManager.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1C448994047F43C4AD3F1E6C8AF4D865"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C5409DA4EE0B12F82E995A0DAE1C8975"
@@ -687,37 +718,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F6F0F1227E0F8879C2873EF3204761B7"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_F6F0F1227E0F8879C2873EF3204761B7"
-                    {
-                    "Name" = "8:Microsoft.WindowsAPICodePack.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.WindowsAPICodePack.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_1C448994047F43C4AD3F1E6C8AF4D865"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F92FF6553ACC44D1B7BE39855E40A991"
             {
             "SourcePath" = "8:..\\Election Saver\\bin\\Debug\\Microsoft.WindowsAPICodePack.Shell.xml"
@@ -830,7 +830,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Election Saver"
         "ProductCode" = "8:{6743E4E8-F96A-4811-A78E-6292EA992DDC}"
-        "PackageCode" = "8:{6AE1D64F-A5AA-4017-A2FE-ABDBACF061D6}"
+        "PackageCode" = "8:{146D4788-E9CC-42FC-864F-0499EA066686}"
         "UpgradeCode" = "8:{F1995517-5FBF-43A1-805C-2C0AC52195D5}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -958,7 +958,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_C2CC5CCC20FE43C9B431E0B6D6338554"
+            "Target" = "8:_38C59C17228A41BA8893E125B038A54F"
             "Folder" = "8:_2392A678B79546ACA7B8CDD045AA4702"
             "WorkingFolder" = "8:_1C448994047F43C4AD3F1E6C8AF4D865"
             "Icon" = "8:_D92672F0686647309E937C23185743D8"
@@ -972,7 +972,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_C2CC5CCC20FE43C9B431E0B6D6338554"
+            "Target" = "8:_38C59C17228A41BA8893E125B038A54F"
             "Folder" = "8:_FBF283B6A5EE48DDA02E6F9CDB4D4128"
             "WorkingFolder" = "8:_1C448994047F43C4AD3F1E6C8AF4D865"
             "Icon" = "8:_D92672F0686647309E937C23185743D8"

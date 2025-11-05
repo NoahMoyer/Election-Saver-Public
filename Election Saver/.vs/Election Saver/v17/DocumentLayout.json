@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\github\\Election-Saver-Public\\Election Saver\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED1D595-2F09-437F-8D33-71D2A5166723}|Election Saver\\Election Saver.csproj|c:\\github\\election-saver-public\\election saver\\election saver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED1D595-2F09-437F-8D33-71D2A5166723}|Election Saver\\Election Saver.csproj|solutionrelative:election saver\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED1D595-2F09-437F-8D33-71D2A5166723}|Election Saver\\Election Saver.csproj|c:\\github\\election-saver-public\\election saver\\election saver\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED1D595-2F09-437F-8D33-71D2A5166723}|Election Saver\\Election Saver.csproj|solutionrelative:election saver\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED1D595-2F09-437F-8D33-71D2A5166723}|Election Saver\\Election Saver.csproj|c:\\github\\election-saver-public\\election saver\\election saver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5ED1D595-2F09-437F-8D33-71D2A5166723}|Election Saver\\Election Saver.csproj|solutionrelative:election saver\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0916BE-2F62-4F0A-BFD4-C5390F8CE0CB}|Updater\\Updater.csproj|c:\\github\\election-saver-public\\election saver\\updater\\updater.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CE0916BE-2F62-4F0A-BFD4-C5390F8CE0CB}|Updater\\Updater.csproj|solutionrelative:updater\\updater.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cs",
+              "DocumentMoniker": "C:\\github\\Election-Saver-Public\\Election Saver\\Election Saver\\Update.cs",
+              "RelativeDocumentMoniker": "Election Saver\\Update.cs",
+              "ToolTip": "C:\\github\\Election-Saver-Public\\Election Saver\\Election Saver\\Update.cs",
+              "RelativeToolTip": "Election Saver\\Update.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:05:06.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\github\\Election-Saver-Public\\Election Saver\\Election Saver\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Election Saver\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\github\\Election-Saver-Public\\Election Saver\\Election Saver\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Election Saver\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAPYBAAAAAAAAAAAowBMCAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T17:25:16.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\github\\Election-Saver-Public\\Election Saver\\Election Saver\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Election Saver\\MainWindow.xaml",
+              "ToolTip": "C:\\github\\Election-Saver-Public\\Election Saver\\Election Saver\\MainWindow.xaml",
+              "RelativeToolTip": "Election Saver\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-05T17:25:00.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Updater",
+              "DocumentMoniker": "C:\\github\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
+              "RelativeDocumentMoniker": "Updater\\Updater.csproj",
+              "ToolTip": "C:\\github\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
+              "RelativeToolTip": "Updater\\Updater.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T17:22:38.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

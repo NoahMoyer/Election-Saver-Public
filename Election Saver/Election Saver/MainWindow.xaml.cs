@@ -513,9 +513,10 @@ namespace Election_Saver
 
         private void updateBitLockerPassword_Click(object sender, RoutedEventArgs e)
         {
-            if(bitLockerPasswordTextBox.Password != null)
+            if(bitLockerPasswordTextBox.Password != null && bitLockerPasswordTextBox.Password != "")
             {
                 fileCopier.setBitLockerPassword(bitLockerPasswordTextBox.Password.ToString());
+                MessageBox.Show("BitLocker password updated successful.", "Update Successful", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {

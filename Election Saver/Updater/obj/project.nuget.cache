@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Umgh0MKpjou3IoW7ETobSBHkunY6rRO0OLyPcTssN7OImerx2XZwXJsoidYFrKEjlryyOIigtS3yh/YCstn34Q==",
+  "dgSpecHash": "t6abqUSmefA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nmoyer\\source\\repos\\Profile Cleaner\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
+  "projectFilePath": "C:\\github\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

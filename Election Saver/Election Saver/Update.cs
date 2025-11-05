@@ -20,7 +20,7 @@ namespace Access_Time_Analyzer
         {
 
             //Begin logging info
-            string logFile = "log.txt";
+            string logFile = "C:\\ProgramData\\Election Saver\\log.txt";
             string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
             //End logging info
 

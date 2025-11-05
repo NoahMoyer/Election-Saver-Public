@@ -45,7 +45,7 @@ namespace Access_Time_Analyzer
             {
                 ///getting version on github
                 System.Net.WebClient wc = new System.Net.WebClient();
-                string webData = wc.DownloadString("https://raw.githubusercontent.com/NoahMoyer/Election-Saver-Public/main/Election%20Saver/Election%20Saver/Properties/AssemblyInfo.css");
+                string webData = wc.DownloadString("https://raw.githubusercontent.com/NoahMoyer/Election-Saver-Public/main/Election%20Saver/Election%20Saver/Properties/AssemblyInfo.cs");
 
                 //parse webData for the following line:
                 //[assembly: AssemblyVersion("1.2.2")]

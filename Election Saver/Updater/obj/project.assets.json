@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\nmoyer\\.nuget\\packages\\": {}
+    "C:\\Users\\clerkpos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
+      "projectUniqueName": "C:\\Users\\clerkpos\\source\\repos\\NoahMoyer\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
       "projectName": "Updater",
-      "projectPath": "C:\\github\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
-      "packagesPath": "C:\\Users\\nmoyer\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\Election-Saver-Public\\Election Saver\\Updater\\obj\\",
+      "projectPath": "C:\\Users\\clerkpos\\source\\repos\\NoahMoyer\\Election-Saver-Public\\Election Saver\\Updater\\Updater.csproj",
+      "packagesPath": "C:\\Users\\clerkpos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\clerkpos\\source\\repos\\NoahMoyer\\Election-Saver-Public\\Election Saver\\Updater\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nmoyer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\clerkpos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

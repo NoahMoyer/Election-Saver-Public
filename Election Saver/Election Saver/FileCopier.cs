@@ -33,8 +33,13 @@ namespace Election_Saver
         public List<string> listOfDriveLettersToExlude = new List<string>();
         public List<string> listOfFileExtensionsToCopy = new List<string>();
         string extensionPrefix = "*.";
-        public string settingsFileName = @"C:\ProgramData\Election Saver\settings.csv";
-        public string settingsFileLocaiton = @"C:\ProgramData\Election Saver\";
+        
+        //public string settingsFileName = @"C:\ProgramData\Election Saver\settings.csv";
+        //public string settingsFileLocaiton = @"C:\ProgramData\Election Saver\";
+
+        public string settingsFileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Election Saver", "settings.csv");
+        public string settingsFileLocaiton = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Election Saver");
+
         public BitLockerManager bitManager;
         public string bitLockerPassword = "a2CityClerksOffice!";
         Encryption encryptor = new Encryption();
@@ -85,81 +90,128 @@ namespace Election_Saver
         /// <summary>
         /// Function to get the settings from the settings file. Settings file is stored in C:\Temp\settings.csv
         /// </summary>
+        /// 
         public void getSettings()
         {
+            try
+            {
+                // Ensure settings directory exists
+                Directory.CreateDirectory(settingsFileLocaiton);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to create or access settings folder: " + ex.Message, "Settings error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
             if (File.Exists(settingsFileName))
             {
-                using (TextFieldParser csvParser = new TextFieldParser(settingsFileName))
+                try
                 {
-                    csvParser.CommentTokens = new string[] { "#" };
-                    csvParser.SetDelimiters(new string[] { "," });
-                    csvParser.HasFieldsEnclosedInQuotes = true;
-                    string[] fields;
-
-                    //read line and add each field to a entry in the array
-                    fields = csvParser.ReadFields();//bitlocker password
-                    bitLockerPassword = encryptor.Decrypt(fields[1]);
-                    fields = csvParser.ReadFields(); //network destination
-                    networkDestinationPath = fields[1];
-                    fields = csvParser.ReadFields(); //local destination
-                    localDestinationPath = fields[1];
-                    fields = csvParser.ReadFields(); //default drive letter
-                    sourcePath =  fields[1];
-                    fields = csvParser.ReadFields(); //drive letters to exlude
-                    listOfDriveLettersToExlude.Clear();//want to clear the list before we make it again
-                    foreach (var letter in fields)
+                    var fi = new FileInfo(settingsFileName);
+                    if (fi.Length == 0)
                     {
-                        if(letter.Length == 1)
+                        CreateDefaultSettings();
+                        return;
+                    }
+
+                    using (TextFieldParser csvParser = new TextFieldParser(settingsFileName))
+                    {
+                        csvParser.CommentTokens = new string[] { "#" };
+                        csvParser.SetDelimiters(new string[] { "," });
+                        csvParser.HasFieldsEnclosedInQuotes = true;
+                        string[] fields;
+
+                        // bitlocker password
+                        fields = csvParser.ReadFields();
+                        if (fields == null || fields.Length < 2) { CreateDefaultSettings(); return; }
+                        bitLockerPassword = encryptor.Decrypt(fields[1]);
+
+                        // network destination
+                        fields = csvParser.ReadFields();
+                        if (fields == null || fields.Length < 2) { CreateDefaultSettings(); return; }
+                        networkDestinationPath = fields[1];
+
+                        // local destination
+                        fields = csvParser.ReadFields();
+                        if (fields == null || fields.Length < 2) { CreateDefaultSettings(); return; }
+                        localDestinationPath = fields[1];
+
+                        // default source drive
+                        fields = csvParser.ReadFields();
+                        if (fields == null || fields.Length < 2) { CreateDefaultSettings(); return; }
+                        sourcePath = fields[1];
+
+                        // drive letters to exclude
+                        fields = csvParser.ReadFields();
+                        listOfDriveLettersToExlude.Clear();
+                        if (fields != null)
                         {
-                            listOfDriveLettersToExlude.Add(letter);
+                            foreach (var letter in fields)
+                            {
+                                if (!string.IsNullOrWhiteSpace(letter) && letter.Length == 1)
+                                {
+                                    listOfDriveLettersToExlude.Add(letter);
+                                }
+                            }
                         }
-                        
-                    }
-                    fields = csvParser.ReadFields(); //files extentions to copy
-                    for (int i = 1; i < fields.Length; i++)
-                    {
-                            listOfFileExtensionsToCopy.Add(extensionPrefix + fields[i]);
-                    }
 
-
+                        // file extensions to copy
+                        fields = csvParser.ReadFields();
+                        listOfFileExtensionsToCopy.Clear();
+                        if (fields != null)
+                        {
+                            for (int i = 1; i < fields.Length; i++)
+                            {
+                                if (!string.IsNullOrWhiteSpace(fields[i]))
+                                {
+                                    listOfFileExtensionsToCopy.Add(extensionPrefix + fields[i]);
+                                }
+                            }
+                        }
+                    }
                 }
-
+                catch (Exception)
+                {
+                    // fallback to defaults if file invalid or parse fails
+                    CreateDefaultSettings();
+                }
             }
             else
             {
-
-                DirectoryInfo di = Directory.CreateDirectory(settingsFileLocaiton);
-                FileStream fs = File.Create(settingsFileName);
-                fs.Close();
-
-
-
-                networkDestinationPath = @"\\city.a2\Shared\S01Usr\CLERK\Elections\2022 Election Information\";
-
-                localDestinationPath = @"C:\Election_Data";
-
-                sourcePath = @"E:\";
-
-                listOfDriveLettersToExlude.Add("X");
-                listOfFileExtensionsToCopy.Add("pdf");
-                setSettings();
-
-                //MessageBox.Show("No settings file found at C:\\Temp\\settings.csv" +
-                //    "\nSettings file with format like this needs to be created:" +
-                //    "\n\nbitlockerPassword,a2CityClerksOffice!" +
-                //    "\nNetworkDestination,S:\\Helpdesk\\Scripts\\Election files" +
-                //    "\nLocalDestination,C:\\Election_Data" +
-                //    "\ndefaultSourceDrive,D:\\" +
-                //    "\ndriveLettersToExclude,G,C,U,S" +
-                //    "\nfileExtensionsToCopy,accdb,csv,pdf" +
-                //    "\n\nfirst column is just the name/description of which setting it is. Needs to be in this order. " +
-                //    "\nSecond columnis the actual setting." +
-                //    "\nCreate this file then you can use the application.", "No settings file");
-                //System.Environment.Exit(1);
+                // file missing -> create default settings
+                CreateDefaultSettings();
             }
-
-
         }
+
+        // add this helper method (e.g. after getSettings)
+        private void CreateDefaultSettings()
+        {
+            // default values (same as original defaults)
+            networkDestinationPath = @"\\network\path";
+            localDestinationPath = @"C:\Election_Data";
+            sourcePath = @"E:\";
+            listOfDriveLettersToExlude.Clear();
+            listOfDriveLettersToExlude.Add("G");
+            listOfDriveLettersToExlude.Add("C");
+            listOfDriveLettersToExlude.Add("U");
+            listOfDriveLettersToExlude.Add("S");
+            listOfFileExtensionsToCopy.Clear();
+            listOfFileExtensionsToCopy.Add("pdf");
+            listOfFileExtensionsToCopy.Add("accdb");
+            listOfFileExtensionsToCopy.Add("zip");
+
+            try
+            {
+                Directory.CreateDirectory(settingsFileLocaiton);
+                setSettings(); // writes settingsFileName
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Failed to create default settings file: " + ex.Message, "Settings error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+
         /// <summary>
         /// This function is desinged to set the current settings so that they are saved and can be referenced when needed. 
         /// This function should be called any time a setting is changed so that we are keeping the settings up to date

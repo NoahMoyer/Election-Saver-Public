@@ -235,3 +235,32 @@ C:\github\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election
 C:\github\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election.A27BB058.Up2Date
 C:\github\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.exe
 C:\github\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.pdb
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Election Saver.exe.config
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Election Saver.exe.manifest
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Election Saver.application
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Election Saver.exe
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Election Saver.pdb
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\BitlockerManager.dll
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.csproj.AssemblyReference.cache
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\MainWindow.g.cs
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\UpdateConfirmation.g.cs
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\App.g.cs
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver_Content.g.cs
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver_MarkupCompile.cache
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver_MarkupCompile.lref
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\MainWindow.baml
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\UpdateConfirmation.baml
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.g.resources
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election_Saver.Properties.Resources.resources
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.csproj.GenerateResource.cache
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.csproj.CoreCompileInputs.cache
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.exe.manifest
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.application
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election.A27BB058.Up2Date
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.exe
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.pdb
+C:\Users\clerkpos\source\repos\NoahMoyer\Election-Saver-Public\Election Saver\Election Saver\obj\Debug\Election Saver.exe.config

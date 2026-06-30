@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("City of Ann Arbor")]
 [assembly: AssemblyProduct("Election file saver")]
-[assembly: AssemblyCopyright("Copyright © City of Ann Arbor 2022")]
+[assembly: AssemblyCopyright("Copyright © City of Ann Arbor 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -51,7 +51,7 @@ using System.Windows;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.3.2.0")]
-[assembly: AssemblyFileVersion("2.3.2.0")]
+[assembly: AssemblyVersion("2.3.3.0")]
+[assembly: AssemblyFileVersion("2.3.3.0")]
 
-[assembly: AssemblyInformationalVersion("2.3.2")]
+[assembly: AssemblyInformationalVersion("2.3.3")]

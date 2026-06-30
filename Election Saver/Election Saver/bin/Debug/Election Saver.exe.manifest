@@ -4,7 +4,7 @@
   <description asmv2:iconFile="vote.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Election Saver" version="2.3.2.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Election Saver" version="2.3.3.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="Election Saver.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Election Saver.exe" size="848384">
-      <assemblyIdentity name="Election Saver" version="2.3.2.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Election Saver.exe" size="848896">
+      <assemblyIdentity name="Election Saver" version="2.3.3.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZOTyeFI4gPSzEA5Fv+QjRk1EiCu/O+ilFjPyYfPDirY=</dsig:DigestValue>
+        <dsig:DigestValue>g441gbUJhmrNWc9a6onKbgf8ASLhlX74PUQIHNI2OCA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
